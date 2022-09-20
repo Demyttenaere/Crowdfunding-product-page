@@ -1,0 +1,996 @@
+*,
+*::before,
+*::after {
+    
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+    
+    margin: 0;
+}
+
+body {
+
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;  
+    font-family: 'Commissioner', sans-serif;
+    background-color: hsl(0, 0%, 48%,0.1);
+    
+}
+
+img, picture {
+
+    max-width: 100%;
+    display: block;
+}
+
+/* Resest finish*/
+
+header {
+
+    background: url(image-hero-mobile.jpg) no-repeat center/cover;
+    height: 300px;
+    
+}
+
+.logo{
+
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+
+
+.hidden {
+
+    display: none;
+}
+
+.cardOne {
+
+    text-align: center;
+    background-color: white;
+    width: 330px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: -55px;
+    z-index: 990;
+}
+
+.logoMaster {
+
+   position: absolute;
+   margin-top: -30px;
+   margin-left: 130px;
+}
+
+.cardOne h1 {
+
+    padding-top: 30px;
+    font-size: 22px;
+    width: 270px;
+    margin-left: 30px;
+}
+
+.cardOne p {
+
+    padding-top: 30px;
+    font-size: 15px;
+    color: hsl(0, 0%, 48%);
+}
+
+#backProject {
+
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 25px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    border: none;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+#backProject:hover {
+
+    background-color: hsl(176, 72%, 28%);
+}
+
+#progressbar {
+    background-color: hsl(0, 0%, 48%,0.1);
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+  }
+  
+  #progressbar>div {
+    background-color: hsl(176, 50%, 47%);
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+  }
+
+#bookmark {
+
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 25px;
+    height: 60px;
+    width: 60px;
+}
+
+#bookmark:hover {
+
+    cursor: pointer;
+}
+button:hover {
+
+    cursor: pointer;
+
+}
+
+
+.filter {
+
+    filter: invert(65%) sepia(15%) saturate(1591%) hue-rotate(127deg) brightness(92%) contrast(86%);
+        
+}
+
+#bookmarkBtn {
+
+    position: absolute;
+}
+
+.cardTwo {
+
+    background-color: white;
+    text-align: center;
+    width: 330px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 1px;
+    
+}
+
+.cardTwo h1 {
+
+    margin-top: 25px;
+}
+
+.cardTwo p {
+
+    color: hsl(0, 0%, 48%);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.cardThree {
+
+    background-color: white;
+    width: 330px;
+    height: 1615px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 26px;
+    padding-top: 30px;
+}
+
+.cardThree p {
+
+    font-size: 14px;
+    color: hsl(0, 0%, 48%);
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.p2 {
+
+    margin-top: 20px;
+}
+
+.cardThree h2 {
+
+    font-size: 18px;
+}
+
+.cardThree h4 {
+
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.bamboo, .black, .special {
+
+    height: auto;
+    width: 280px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+    border: 0.5px solid hsl(0, 0%, 48%);
+    padding-left: 20px;
+}
+
+.cardThree h3 {
+
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.bamboo p {
+
+    width: 235px;
+}
+.bamboo div, .black div, .special div {
+
+    font-size: 16px;
+    color:hsl(0, 0%, 48%); 
+    margin-top: 20px;
+}
+
+.bamboo span, .black span, .special span {
+
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    vertical-align:sub;
+}
+
+#bambooBtn, #blackBtn, #specialBtn {
+
+    margin-top: 25px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#bambooBtn:hover, #blackBtn:hover {
+background-color: hsl(176, 72%, 28%);
+
+}
+
+.special {
+
+    opacity: 0.3;
+}
+
+.cardFour {
+
+    
+    background-color: white;
+    position: relative;
+    width: 330px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 26px;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 500px 50px;
+    margin-top: -2450px;
+    padding-bottom: 30px;
+}
+
+#close {
+
+    position: absolute;
+    margin-left: 260px;
+    
+}
+
+.pledge:invalid {
+
+    border: 1px solid red;
+    color: red;
+}
+
+.cardFour h1 {
+
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.bambooSelect p, .blackSelect p, .specialSelect p, .noReward p {
+
+    font-size: 14px;
+    color: hsl(0, 0%, 48%);
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.cardP {
+
+    font-size: 14px;
+    color: hsl(0, 0%, 48%);    
+}
+
+
+.cardFour h2 {
+
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cardFour h3 {
+
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.left {
+
+    font-size: 16px;
+    color:hsl(0, 0%, 48%); 
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.bambooSelect span, .blackSelect span, .specialSelect span {
+
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    vertical-align:auto;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.bambooSelect, .blackSelect, .specialSelect, .noReward {
+
+    height: auto;
+    width: 280px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0.5px solid hsl(0, 0%, 48%);
+    padding-left: 20px;
+
+}
+
+label {
+
+    border: 1px solid hsl(0, 0%, 48%);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 4px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.label1 {
+    
+
+        border: 1px solid hsl(0, 0%, 48%);
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        margin: 4px;
+        vertical-align: middle;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        position: absolute;
+        margin-top: 25px;
+}
+
+#bambooPledge , #blackPledge, .specialPledge {
+
+    border-top: 1px solid hsl(0, 0%, 48%);
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 280px;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+#noRewardPledge {
+
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 280px;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+label>div {
+
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.input:checked+label>div {
+    background-color: hsl(176, 50%, 47%);
+}
+
+.input {
+    display: none;
+}
+
+.input:not(:checked)+label>div {
+    background-color: white;
+}
+
+.pledge {
+
+    padding-left: 40px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 48%);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.BP, .SP, .BBP {
+
+    margin-top: 8px;
+    margin-left: 20px;
+    border: none;
+    color: hsl(0, 0%, 48%);
+}
+
+h5 {
+
+    margin-left: 60px;
+    font-weight: 500;
+    color: hsl(0, 0%, 48%);
+}
+
+.cardFour p {
+
+    width: 230px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.specialSelect {
+
+    opacity: 0.3;
+}
+
+
+#bambooContinue, #specialContinue, #blackContinue, #noRewardContinue {
+
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+#bambooContinue:hover, #blackContinue:hover, #noRewardContinue:hover, #gotIt:hover {
+    
+    background-color: hsl(176, 72%, 28%);
+}
+
+#thank {
+
+    background-color: white;
+    height: 385px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: -2450px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 100px 50px;
+    
+}
+#thank img {
+
+    margin-left: 130px;
+}
+
+#thank h6 {
+
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#thank p {
+
+    margin-top: -20px;
+    width: 310px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    color: hsl(0, 0%, 48%);
+}
+
+#gotIt {
+
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.hidden2 {
+
+    display: none;
+}
+
+.hidden4 {
+
+    display: none;
+}
+
+.attribution { 
+    
+    font-size: 11px; 
+    text-align: center;
+    width: 330px; 
+    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribution a { 
+    
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:759px){
+#bookmarkBtn {
+        display: none;
+    }
+    .line {
+
+        border-bottom: 0.5px solid hsl(0, 0%, 48%);
+        width: 80px;
+        margin-left: 125px;
+        margin-top: 20px;
+    }
+
+    .iconMenu {
+
+        position: relative;
+        margin-left: auto;
+        margin-right: 40px;
+        margin-top: -20px;
+        border: none;
+        height: 20px;
+        width: 22px;
+    }
+    
+    #btn:hover {
+    
+        cursor: pointer;
+    }
+    
+    .menu {
+    
+        position: relative;
+        background-color: white;
+        margin-top: -215px;
+        width: 330px;
+        height: 215px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-weight: 500;
+        z-index: 1000;
+        
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 500px 50px;
+    }
+    
+    .about {
+    
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border-bottom: 0.5px solid hsl(0, 0%, 48%);
+        width: 330px;
+    }
+    
+    .discover {
+    
+       
+        padding-left: 20px;
+        padding-bottom: 25px;
+        border-bottom: 0.5px solid hsl(0, 0%, 48%);
+        width: 330px;
+    }
+    
+    .getStarted {
+    
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 330px;
+    }
+
+    .hidden {
+
+        display: none;
+    }
+}
+
+  
+
+@media (min-width:760px) {
+
+    header {
+
+        background: url(image-hero-desktop.jpg) no-repeat center/cover;
+        
+        
+    }
+
+    .cardOne, .cardTwo, .cardThree, .cardFour {
+
+        width: 730px;
+    }
+
+    .logoMaster {
+
+        margin-left: 340px;
+        
+     }
+     
+     .cardOne h1 {
+     
+        width: 600px;
+        padding-top: 50px;
+        margin-left: 70px;
+        font-size: 28px;
+     }
+     
+     .cardOne p {
+     
+         font-size: 16px;
+         margin-left: 15px;
+         margin-top: -20px;
+     }
+     
+     #backProject {
+     
+         margin-left: -310px;
+         margin-top: 35px;
+         
+     }
+     
+     
+     #progressbar {
+        
+        width: 640px;
+        margin-left: -380px;
+        margin-top: 30px;
+        height: 15px;
+
+        
+      }
+      
+      #progressbar>div {
+        
+        height: 15px;
+        
+      }
+
+    #bookmark {
+
+       margin-left: 500px;
+       margin-top: 35px;
+    }
+
+    #bookmarkBtn {
+
+        margin-left: 135px;
+        background-color: hsl(0, 0%, 48%,0.2);
+        color: hsl(0, 0%, 48%);
+        border: none;
+        padding: 20px 35px 20px 80px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 35px;
+    }
+
+    .cardTwo {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        height: 200px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .cardTwo h1 {
+
+        width: 150px;
+        height: 200px;
+    }
+
+    .cardTwo p {
+
+        width: 150px;
+        margin-top: -150px;
+    }
+
+    .line {
+
+        border-right: 1px solid hsl(0, 0%, 48%);
+        border-left: 1px solid hsl(0, 0%, 48%);
+        width: 190px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 180px;
+        position: absolute;
+    }
+
+    .cardThree {
+
+        padding-left: 50px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .cardThree p {
+
+        font-size: 16px;
+        width: 630px;
+    }
+
+    .bamboo, .black, .special {
+
+        width: 630px ;
+        height: 220px;
+        margin-top: 30px;
+    }
+
+    .bamboo p, .black p, .special p {
+
+        width:580px;
+    }
+
+    .cardThree h4 {
+
+        position: absolute;
+        margin-left: 430px;
+        margin-top: -20px; 
+    }
+
+    .cardFour h1 {
+
+        font-size: 20px;
+    }
+
+    .cardFour p {
+
+        font-size: 16px;
+        width: 600px;
+    }
+
+    #bambooBtn, #blackBtn, #specialBtn {
+
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -40px;
+    }
+
+    .cardThree h2, .cardThree h3 {
+
+        font-size: 20px;
+    }
+
+    .cardFour {
+        margin-top: -1100px;
+        padding-left: 50px;
+    }
+
+    .bambooSelect, .blackSelect, .specialSelect, .noReward {
+
+        width: 630px;
+    }
+
+    .bambooSelect p, .blackSelect p, .specialSelect p, .noReward p {
+
+        width: 560px;
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    .bambooSelect h3 {
+
+        position: absolute;
+        margin-left: 160px;
+        margin-top: -23px;
+    }
+
+    .bambooSelect h2, .blackSelect h2, .specialSelect h2 {
+        margin-top: 36px;
+    }
+
+    .blackSelect h3 {
+
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -23px;
+    }
+
+    .specialSelect h3 {
+
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -23px;
+    }
+
+    .bambooSelect .left {
+
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 500px;
+    }
+
+    .blackSelect .left, .specialSelect .left {
+
+        position: absolute;
+        margin-top: -125px;
+        margin-left: 500px;
+    }
+
+    #bambooPledge, #blackPledge, #noRewardPledge {
+
+        width: 630px;
+        display: flex;
+        
+    }
+
+    #bambooPledge h5 {
+
+        margin-top: 25px;
+        padding-bottom: 40px;
+        position: absolute;
+        font-size: 16px;
+    }
+
+    #blackPledge h5 {
+
+        margin-top: 25px;
+        padding-bottom: 40px;
+        position: absolute;
+        font-size: 16px;
+    }
+    .pledge {
+
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+
+    .BBP, .BP {
+
+        margin-left:367px ;
+        margin-top: 28px;
+    }
+
+    #noRewardContinue {
+
+        margin-left:420px;
+    }
+
+    #close {
+
+        margin-left: 630px;
+    }
+
+    #thank {
+
+        width: 540px;
+        position: relative;
+        margin-top: -1000px;
+    }
+
+    #thank h6 {
+
+        font-size: 25px;
+    }
+
+    #thank img {
+
+        margin-left: 245px;
+    }
+
+    #thank p {
+
+        
+        width: 440px;
+        font-size: 16px;
+        margin-left: 50px;
+    }
+
+    .bambooSelect h2:hover , .blackSelect h2:hover, .noReward h2:hover {
+
+        color: hsl(176, 50%, 47%);
+    }
+
+    .iconMenu {
+
+        display: none;
+    }
+
+    .hidden {
+
+        display: block;
+    }
+
+    .menu {
+        
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 800px;
+        height: auto;
+        margin-left: auto;
+        margin-right: 40px;
+        margin-top: -270px;
+        margin-bottom: 230px;
+        padding-left: 400px;
+        
+    }
+
+    .about, .discover, .getStarted {
+
+        margin-left: 50px;
+        color: white;
+        font-weight: 700;
+        
+
+    }    
+}
+
